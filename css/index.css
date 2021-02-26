@@ -1,0 +1,524 @@
+body {
+    margin: auto;
+    padding: 0;
+      font-family: "Saira";
+}
+h2 {
+   text-align: center;
+   font-size: 50px;
+}
+
+.heading {
+    text-align: center;
+    font-size: 34px;
+    font-family: "Saira";
+   padding: 30px 40px;   
+}
+
+.heading a {
+     font-family: "Saira";
+text-decoration: none;
+color: #212020;
+}
+.menu {
+    padding: 10px 40px 50px 40px;
+    margin: auto;
+     max-width: 600px;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
+    display: block;
+    background-color: #ffffff;
+}
+
+.navbar-brand {
+    display: block;
+    text-align: center;
+    font-size: 34px;
+    font-family: "Saira";
+   padding: 30px 40px;   
+
+}
+.navbar-toggler {
+    float: right;
+    margin-top: -75px;
+}
+.navbar-nav {
+    padding: 10px 40px 50px 40px;
+    justify-content: space-between;
+    margin: auto;
+    font-size: 15px;
+    font-family: "Merriweather";
+    color: #212020;
+
+}
+.nav-link a:hover {
+color: red;
+}
+
+ .menu li {list-style: none;}
+.menu a {
+    font-size: 15px;
+    font-family: "Merriweather";
+     text-decoration: none;
+    color: #212020;
+}
+.menu a:hover {
+    color: red;
+}
+
+
+
+
+@media (min-width: 660px) {
+    #cover {display: grid;
+        grid-template-columns: 1fr;
+}}
+@media (min-width:900px) {
+    #cover {display: grid;
+        grid-template-columns: 1fr 1fr;
+}}
+    #cover {
+        padding: 100px 0px;
+        background-color:  #F1F1F1; 
+    }
+.banner {
+    margin:30px 15px 0px 15px;
+}
+
+.banner h1 {
+    font-size: 80px;
+    font-weight: bolder;
+    color: #212020;
+    line-height: 1;
+    letter-spacing: -.034em;
+}
+.banner p {
+    font-size: 16px;
+    font-family: "Merriweather";
+    color: #212020;
+}
+.banner a  {
+    padding: 15px 30px;
+   text-decoration: none;
+   font-family: "Merriweather";
+   color: white;
+   border: 1px solid #E04141;
+   background-color: #E04141;
+   border-radius: 30px/30px;
+
+}
+button {padding: 15px 30px;
+   text-decoration: none;
+   font-family: "Merriweather";
+   color: white;
+   border: 1px solid #E04141;
+   background-color: #E04141;
+   border-radius: 30px/30px;}
+
+.adaptive {
+    width: 100%;
+    height:100%;}
+
+@media (min-width: 660px) {
+    #cover {display: grid;
+        grid-template-columns: 1fr;
+}}
+@media (min-width:900px) {
+    #cover {display: grid;
+        grid-template-columns: 1fr 1fr;
+}}
+
+#products, #blog, #why-us {
+    background-image: url("../img/background-image.jpg");
+}
+#products h2 {
+    color: rgb(206, 187, 187);
+    font-weight: inherit;
+    text-align: center;
+}
+#products {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.adaptive { width: 100%;
+height: auto;  }
+
+
+@media (min-width: 660px) {
+    .categories{display: grid;
+        grid-template-columns: 1fr;
+}}
+@media (min-width: 900px) {
+    .categories{display: grid;
+        grid-template-columns: 1fr 1fr;
+}}
+@media (min-width: 960px) {
+    .categories{display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+}}
+
+.categories1 {
+    background-color: white;
+    margin: 30px 20px;
+    text-align: center;
+}
+.categories1 img {
+    display: block;
+    max-width: 394px;
+    max-height: 394px;
+    margin: auto;
+}
+.categories1 a {
+    margin: 25px 0px 0px;
+    font-family: "Merriweather";
+    font-size: 17px;
+    color: #212020;
+    text-decoration: none;
+}
+.categories1 a:hover
+{     padding-bottom: 1px;
+    border-bottom: 1px solid #212020;
+
+}
+
+.categories1 p {
+   margin: 16px 0px 24px;
+   font-family: "Merriweather";
+   font-size: 17px;
+   font-weight: bold;
+   color: #E04141;
+}
+#colections {
+    padding-top: 75px;
+    padding-bottom: 92.5px;
+    text-align: center;
+}
+
+#colections h2 {
+    font-size: 44px;
+    font-family: "Saira";
+    font-weight: lighter;
+     margin-top: -10px;}
+.colections1 {
+    margin: auto;
+    padding-bottom: 50px;
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    
+
+}
+.colections2 h3 {
+    position: relative;
+    display: block;
+    width: 75%;
+    margin: auto;
+    margin-top: -60px;
+    padding: 30px 25px;
+    font-size: 36px;
+    font-family: "Saira";
+    color: #ffffff;
+    font-weight: 400;
+    background: #E04141;
+}
+.colections2 img {
+   display: block;
+   max-width: 100%;
+   height: auto;
+
+}
+#colections a {
+text-decoration: none;
+color: #212020;
+font-size: 14px;
+font-family: "Merriweather";
+margin-top: 40px;
+padding: 12px 30px;
+border-style: solid;
+border-width: 2px;
+border-color: #212020;
+border-radius: 20px;
+}
+
+#improve-brand {
+    background: linear-gradient(
+    to bottom,
+    rgba(33, 32, 32, 0.85),
+    rgba(33, 32, 32, 0.85))
+  ,url('../img/brand-background.jpg');
+background-attachment: fixed;
+padding: 90px 0px 100px;
+text-align: center;}
+
+#improve-brand h2 {
+margin: -30px 15px 0px;
+padding: 0px 15px 35px 0px;
+font-size: 45px;
+font-weight: 400;
+font-family: "Saira";
+color: #ffffff;
+}
+#improve-brand a {
+   padding: 15px 30px;
+   text-decoration: none;
+   font-family: "Merriweather";
+   color: white;
+   border: 1px solid #E04141;
+   background-color: #E04141;
+   border-radius: 30px/30px;
+}
+
+
+#gift-packs {
+    padding: 75px 0px 95px;
+    background-color:#EBEBEB;
+}
+#gift-packs h2 {
+    margin: -30px -15px 0px;
+    font-family: "Saira";
+    font-weight: lighter;
+    
+}
+#gift-packs {
+    padding: 75px 40px 70px 40px;
+}
+     .slider {
+      position: relative;
+      overflow: hidden;
+    }
+    .slider__wrapper {
+      display: flex;
+      transition: transform 0.6s ease;
+    }
+     .slider__item {
+      flex: 0 0 100%;
+      max-width: 100%;
+      padding: 0px 15px;
+  
+}
+@media (min-width : 990px) {
+    .slider__item {
+      flex: 0 0 25%;
+      max-width: 25%;
+      padding: 0px 15px;
+    }
+}
+    .slider__item img {
+        width: 100%;
+        height: auto;
+    }
+
+    .slider__control {
+      position: absolute;
+      top: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px;
+      color: #fff;
+      text-align: center;
+      opacity: 0.5;
+      height: 50px;
+      transform: translateY(-50%);
+      background: rgba(0, 0, 0, .5);
+    }
+
+    .slider__control:hover,
+    .slider__control:focus {
+      color: #fff;
+      text-decoration: none;
+      outline: 0;
+      opacity: .9;
+    }
+
+    .slider__control_left {
+      left: 0;
+    }
+
+    .slider__control_right {
+      right: 0;
+    }
+
+    .slider__control::before {
+      content: '';
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      background: transparent no-repeat center center;
+      background-size: 100% 100%;
+    }
+
+    .slider__control_left::before {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+    }
+
+    .slider__control_right::before {
+      background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+    }
+
+    .slider__item>div {
+      line-height: 250px;
+      font-size: 100px;
+      text-align: center;
+    }
+    
+#custom-orders {
+    background-image: url(../img/background-custom-orders.jpg);
+    background-size: cover;
+    
+}
+#great-products {
+    padding: 90px 0px 80px;}
+
+.great-container {
+    margin-top: 30px;
+    padding: 0px 15px;
+}
+.great-container h2 {
+    text-align: left;
+    font-family: "Saira";
+    font-size: 50px;
+    font-weight: lighter;
+    line-height: 1.1;
+}
+.great-container p {
+    font-size: 15px;
+    font-family: "Merriweather";
+    color: #212020;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+@media (min-width: 770px) {
+    #great-products {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+} 
+
+#why-us {
+    padding: 75px 0px 90px;
+    color: #F1F1F1;
+    text-align: center;
+    font-family: "Saira";
+}
+#why-us h2 {
+    margin: -30px -15px 0px;
+    font-weight: lighter;
+
+}
+#why-us h3 {
+    font-size: 36px;
+    font-weight: lighter;
+    margin: 0px;
+    line-height: 1.1;
+}
+#why-us p {
+    font-size: 15px;
+    font-family: "Merriweather";
+    color: #c2c2c2;
+    line-height: 1.5;
+}
+.box-tools {
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+}
+.why-us-box {
+    margin: auto;
+    max-width: 1200px;
+}
+@media (min-width : 770px)
+{
+    .why-us-box {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+}}
+@media (min-width: 990px) 
+{
+ .why-us-box {
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+     
+ }
+}
+#video {
+    padding: 75px 0px 45px;
+}
+.video-container {
+    padding: 0px 32px;
+    margin: -30px -15px 0px;
+   
+    color: #212020;
+}
+.video-container h2 {
+    font-weight: lighter;
+    font-family: 'Saira';
+}
+
+#blog {
+    padding: 75px 0px 95px;
+    color: #ffffff;
+}
+#blog h2 {
+    text-align: center;
+    font-size: 44px;
+    font-family: "Saira";
+    margin: -30px -15px 0px;
+    color: #ffffff;
+    font-weight: lighter;
+}
+
+@media ( min-width: 990px) {
+    .blog-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+}
+@media ( min-width:770px) {
+    .blog-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+#subscribe {
+background: linear-gradient(
+    to bottom,
+    rgba(33, 32, 32, 0.85),
+    rgba(33, 32, 32, 0.85))
+  ,url('../img/background-subscribe.jpg');
+background-attachment: fixed;}
+
+footer {
+    background-color: #212020;
+    color: white;
+}
+footer a {
+    color: white;
+     text-decoration: none;
+}
+footer p { color: #BCBCBC;
+           font-size: 15px;} 
+@font-face {
+    font-family: "Saira";
+    src: url("../font/Saira-Regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+} 
+
+@font-face {
+    font-family: "Merriweather";
+    src: url("../font/Merriweather-Regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+} 
