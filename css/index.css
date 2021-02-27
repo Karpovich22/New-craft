@@ -560,25 +560,38 @@ padding: 0px 15px;
 }
 
 
-
-
-
-
-
-
-
-
-
 footer {
+    padding: 90px 40px;
     background-color: #212020;
     color: white;
 }
 footer a {
     color: white;
      text-decoration: none;
+     font-size: 15px;
+     font-family: "Merriweather";
+}
+footer a:hover {
+    text-decoration: underline #ffffff;
+    color: #ffffff;
 }
 footer p { color: #BCBCBC;
            font-size: 15px;} 
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-around;
+}
+.footer_item {
+    margin: 0px 40px;
+}
+.footer_item h3 {
+    font-size: 36px;
+    font-family: "Saira";
+}
+
+
+
 @font-face {
     font-family: "Saira";
     src: url("../font/Saira-Regular.ttf");
