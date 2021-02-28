@@ -589,9 +589,15 @@ footer p { color: #BCBCBC;
     font-size: 36px;
     font-family: "Saira";
 }
-
-
-
+.item-container a { 
+    text-decoration: none;
+}
+    .item-container img {
+    width: 34px;
+    height:20px;
+    border-radius: 50%/70%;
+   background: #E04141;
+    }
 @font-face {
     font-family: "Saira";
     src: url("../font/Saira-Regular.ttf");
