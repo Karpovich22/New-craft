@@ -68,10 +68,6 @@ color: red;
 .menu a:hover {
     color: red;
 }
-
-
-
-
 @media (min-width: 660px) {
     #cover {display: grid;
         grid-template-columns: 1fr;
@@ -186,11 +182,15 @@ height: auto;  }
 }
 
 .categories1 p {
+   text-align: center;
    margin: 16px 0px 24px;
    font-family: "Merriweather";
    font-size: 17px;
    font-weight: bold;
    color: #E04141;
+}
+.categories1 button {
+    margin-bottom: 10px;
 }
 #colections {
     padding-top: 75px;
@@ -284,7 +284,6 @@ color: #ffffff;
     margin: -30px -15px 0px;
     font-family: "Saira";
     font-weight: lighter;
-    
 }
 #gift-packs {
     padding: 75px 40px 70px 40px;
