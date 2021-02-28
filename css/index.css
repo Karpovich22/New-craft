@@ -371,8 +371,30 @@ color: #ffffff;
 #custom-orders {
     background-image: url(../img/background-custom-orders.jpg);
     background-size: cover;
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
 }
+.custom-orders1 { padding: 90px 90px;}
+.custom-orders1 p {
+    font-size: 15px;
+    font-family: "Merriweather";
+    color: #595452;
+}
+.custom-orders1 a {
+    padding: 12px 30px;
+    text-decoration: none;
+    color: #212020;
+    font-size: 14px;
+    font-family: "Merriweather";
+    border: solid #E04141;
+    border-radius: 30px;
+}
+.custom-orders1 a:hover {
+    color: #F1F1F1;
+    background-color: #E04141;
+}
+
 #great-products {
     padding: 90px 0px 80px;}
 
