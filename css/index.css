@@ -559,8 +559,10 @@ padding: 90px 40px;}
     #subscribe {
         flex-wrap: wrap;
     }
+    .subscribe-join {
+        width: 100%;
+    }
 }
-
 
 .subscribe-information ,.subscribe-join{
 margin: 30px 0px 0px;
@@ -580,6 +582,25 @@ padding: 0px 15px;
     font-family: "Merriweather";
 }
 
+input[type="email" i] {
+width: 100%;
+padding: 13px 30px 12px;
+    font-size: 14px;
+    border-radius: 20px;
+}
+input[type="submit" i] {
+    width: 100%;
+   padding: 13px 30px 12px;
+    font-size: 14px;
+    border-radius: 20px;
+    background-color: #E04141;
+    color: #F1F1F1;
+    font-family: "Merriweather";
+}
+input[type="submit" i]:hover {
+    background-color: #ffffff;
+    color: #212020;
+}
 
 footer {
     padding: 90px 40px;
@@ -637,9 +658,6 @@ footer p { color: #BCBCBC;
 .youtube a:hover {background: #E04141; color: #212020;}
 .instagram a:hover {background: #E04141; color: #212020;}
 .facebook a:hover {background: #E04141; color: #212020;}  
-
-
-
 
 @font-face {
     font-family: "Saira";
