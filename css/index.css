@@ -585,8 +585,10 @@ padding: 0px 15px;
 input[type="email" i] {
 width: 100%;
 padding: 13px 30px 12px;
-    font-size: 14px;
-    border-radius: 20px;
+font-size: 14px;
+border-radius: 20px;
+border-color: #F1F1F1;
+
 }
 input[type="submit" i] {
     width: 100%;
@@ -596,6 +598,7 @@ input[type="submit" i] {
     background-color: #E04141;
     color: #F1F1F1;
     font-family: "Merriweather";
+    border-color: #212020;
 }
 input[type="submit" i]:hover {
     background-color: #ffffff;
@@ -607,6 +610,11 @@ footer {
     background-color: #212020;
     color: white;
 }
+.footer-wrapper {
+    display: flex;
+    justify-content: space-around;
+flex-wrap: nowrap;}
+
 footer a {
     color: white;
      text-decoration: none;
@@ -620,20 +628,16 @@ footer a:hover {
 footer p { color: #BCBCBC;
            font-size: 15px;} 
 
-.footer-wrapper {
-    display: flex;
-    justify-content: space-around;
-}
 .footer_item {
-    margin: 0px 40px;
+    margin: 20px 10px;
+    line-height: 2;
 }
 .footer_item h3 {
     font-size: 36px;
     font-family: "Saira";
 }
 .item-container a { 
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
 .item-container {
     display: flex;
@@ -659,6 +663,14 @@ footer p { color: #BCBCBC;
 .instagram a:hover {background: #E04141; color: #212020;}
 .facebook a:hover {background: #E04141; color: #212020;}  
 
+@media (max-width: 770px) {
+   .footer-wrapper {
+      display:grid;
+      grid-template-columns: 1fr;
+      text-align: center;
+      justify-items: center;   
+}
+}
 @font-face {
     font-family: "Saira";
     src: url("../font/Saira-Regular.ttf");
