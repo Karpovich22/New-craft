@@ -281,13 +281,15 @@ color: #ffffff;
     background-color:#EBEBEB;
 }
 #gift-packs h2 {
-    margin: -30px -15px 0px;
+    margin: -30px -15px 30px;
     font-family: "Saira";
+    font-size: 38px;
     font-weight: lighter;
 }
 #gift-packs {
     padding: 75px 40px 70px 40px;
 }
+
      .slider {
       position: relative;
       overflow: hidden;
@@ -313,7 +315,13 @@ color: #ffffff;
         width: 100%;
         height: auto;
     }
-
+    .slider__item p {
+        font-size: 15px;
+        font-family: "Merriweather";
+        color: #595452;
+        text-align: center;
+        padding-top: 10px;
+    }
     .slider__control {
       position: absolute;
       top: 50%;
@@ -326,7 +334,8 @@ color: #ffffff;
       opacity: 0.5;
       height: 50px;
       transform: translateY(-50%);
-      background: rgba(0, 0, 0, .5);
+      background: #212020;
+      border-radius: 100%;
     }
 
     .slider__control:hover,
