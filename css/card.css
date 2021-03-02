@@ -1,0 +1,23 @@
+a.nav-link.openCartLink {
+ position: fixed; 
+	top: 123px; 
+	right: 60px; 
+    z-index: 999999;
+    border-radius: 100%;
+    background-color: white;
+    padding: 16px 16px;  
+}
+.svg-inline--fa.fa-w-14{
+ width: 36px;
+ height: 36px;
+ color: black;
+}
+.bg-dark {
+    background-color: rgb(224, 65, 65)!important;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: -2px;
+    right: -2px;
+    border-radius: 50%;
+}

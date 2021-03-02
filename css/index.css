@@ -640,7 +640,7 @@ footer p { color: #BCBCBC;
     flex-wrap: nowrap;
 }
 
-@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
 .social a {
     text-align: center;
     width: 48px;
@@ -653,8 +653,8 @@ footer p { color: #BCBCBC;
     border: solid 2px #E04141;
     margin: 0 10px 10px 0;
     padding: 6px;
-    color: #E04141;
-}
+    color: #E04141; 
+} 
 .youtube a:hover {background: #E04141; color: #212020;}
 .instagram a:hover {background: #E04141; color: #212020;}
 .facebook a:hover {background: #E04141; color: #212020;}  
