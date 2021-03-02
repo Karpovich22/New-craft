@@ -55,11 +55,13 @@ h2 {
     color: #212020;
     line-height: 1;
     letter-spacing: -.034em;
+    padding: 0px 5px;
 }
 .banner p {
     font-size: 16px;
     font-family: "Merriweather";
     color: #212020;
+    padding: 0px 5px;
 }
 .banner a  {
     padding: 15px 30px;
@@ -102,61 +104,12 @@ button {padding: 15px 30px;
 }
 #products {
     padding-top: 50px;
-    padding-bottom: 40px;
+    padding-bottom: 30px;
 }
 
 .adaptive { width: 100%;
 height: auto;  }
 
-
-@media (min-width: 660px) {
-    .categories{display: grid;
-        grid-template-columns: 1fr;
-}}
-@media (min-width: 900px) {
-    .categories{display: grid;
-        grid-template-columns: 1fr 1fr;
-}}
-@media (min-width: 960px) {
-    .categories{display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-}}
-
-.categories1 {
-    background-color: white;
-    margin: 30px 20px;
-    text-align: center;
-}
-.categories1 img {
-    display: block;
-    max-width: 394px;
-    max-height: 394px;
-    margin: auto;
-}
-.categories1 a {
-    margin: 25px 0px 0px;
-    font-family: "Merriweather";
-    font-size: 17px;
-    color: #212020;
-    text-decoration: none;
-}
-.categories1 a:hover
-{     padding-bottom: 1px;
-    border-bottom: 1px solid #212020;
-
-}
-
-.categories1 p {
-   text-align: center;
-   margin: 16px 0px 24px;
-   font-family: "Merriweather";
-   font-size: 17px;
-   font-weight: bold;
-   color: #E04141;
-}
-.categories1 button {
-    margin-bottom: 10px;
-}
 #colections {
     padding-top: 75px;
     padding-bottom: 92.5px;

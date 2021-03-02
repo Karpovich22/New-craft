@@ -21,7 +21,7 @@ class ProductList {
                   <div class="card product">
                     <img class="card-img-top" src="img//${product.image}" 
                         alt="${product.title}">
-                    <div class="card-body d-flex flex-column">
+                      <div class="card-body d-flex flex-column">
                       <h4 class="card-title">${product.title}</h4>
                       <p class="card-text flex-fill">${product.description}</p>
                       <div class="d-flex justify-content-around">

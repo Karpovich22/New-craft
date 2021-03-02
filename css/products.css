@@ -10,9 +10,67 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
-
-
-.img.card-img-top {
-    width: 100%;
-    height: auto;
+@media (max-width: 990px)
+{
+    .row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
+@media (max-width:770px)
+{
+    .row {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+.card-title {
+font-size: 17px;
+font-family: "Merriweather";
+color: #212020;
+}
+.card-title:hover {
+    text-decoration: underline;
+}
+.btn.btn-info {
+    background: #ffffff;
+    color: #212020;
+    border-radius: 20px;
+    border: solid #E04141 1px;
+    font-family: "Merriweather";
+    font-size: 14px;
+}
+.btn.btn-primary.buy {
+     background: #E04141;
+    color: #ffffff;
+    border-radius: 20px;
+    border: solid #E04141 1px;
+    font-family: "Merriweather";
+    font-size: 14px;
+}
+.btn.btn-primary.buy:hover {
+    color: black;
+    background: #ffffff;
+
+}
+.btn.btn-primary.order {
+    color: #ffffff;
+    background: #E04141;
+    border-radius: 20px;
+    border: solid 1px #E04141;
+}
+
+@font-face {
+    font-family: "Saira";
+    src: url("../font/Saira-Regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+} 
+
+@font-face {
+    font-family: "Merriweather";
+    src: url("../font/Merriweather-Regular.ttf");
+    font-style: normal;
+    font-weight: normal;
+} 
