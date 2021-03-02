@@ -6,11 +6,11 @@ a.nav-link.openCartLink {
     border-radius: 100%;
     background-color: white;
     padding: 16px 16px;  
+    color: #212020;
 }
-.svg-inline--fa.fa-w-14{
+.svg-inline--fa.fa-shopping-bag.fa-w-14 {
  width: 36px;
  height: 36px;
- color: black;
 }
 .bg-dark {
     background-color: rgb(224, 65, 65)!important;
