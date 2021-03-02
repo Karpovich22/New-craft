@@ -1,12 +1,12 @@
 a.nav-link.openCartLink {
- position: fixed; 
+    position: fixed; 
 	top: 123px; 
 	right: 60px; 
     z-index: 999999;
     border-radius: 100%;
     background-color: white;
     padding: 16px 16px;  
-    color: #212020;
+    color: #212020!important;
 }
 .svg-inline--fa.fa-shopping-bag.fa-w-14 {
  width: 36px;
