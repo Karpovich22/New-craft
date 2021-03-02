@@ -31,7 +31,10 @@ h2 {
     font-size: 15px;
     font-family: "Merriweather";
     color: #212020;
-
+    text-align: center;
+}
+.nav-link:hover {
+    color: #E04141!important;
 }
 @media (min-width: 660px) {
     #cover {display: grid;
