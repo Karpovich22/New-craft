@@ -2,28 +2,42 @@
     {
         "id": "1",
         "title": "Handmade Leather Notebook",
-        "image": "brown-briefcase.jpg",
-        "description": "Baby Yoda sticker",
+        "image": "leather-notebook.jpg",
+        "description": "Handmade Leather Notebook",
         "price": 84
     },
     {
         "id": "2",
-        "title": "Banana",
-        "image": "leather-bag.jpg",
-        "description": "Banana sticker",
-        "price": 19.99
+        "title": "Brown Leather Wallet",
+        "image": "leather-wallet.jpg",
+        "description": "Brown Leather Wallet",
+        "price": 86
     },
     {
         "id": "3",
-        "title": "Girl",
-        "image": "leather-notebook.jpg",
-        "description": "Girl sticker",
-        "price": 24.99
+        "title": "Brown Business Folder",
+        "image": "business-folder.jpg",
+        "description": "Brown Business Folder",
+        "price": 84
     },
     {
         "id": "4",
-        "title": "Viking",
-        "image": "leather-wallet.jpg",
-        "description": "Viking sticker",
-        "price": 34.99
+        "title": "Big Brown Leather Bag",
+        "image": "leather-bag.jpg",
+        "description": "Brown Leather Bag",
+        "price": 124
+    },
+    {
+        "id": "5",
+        "title": "Stylish Brown Briefcase",
+        "image": "brown-briefcase.jpg",
+        "description": "Stylish Brown Briefcase",
+        "price": 200
+    },
+    {
+        "id": "6",
+        "title": "Three-Color Leather Purse",
+        "image": "leather-purse.jpg",
+        "description": "Three-Color Leather Purse",
+        "price": 90
     }]

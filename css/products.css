@@ -1,0 +1,18 @@
+
+.col-12.col-sm-6.col-md-4.col-lg-3.mb-3 {
+    width: 100%;
+    height: auto;
+}
+.row {
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.img.card-img-top {
+    width: 100%;
+    height: auto;
+}
